@@ -12,3 +12,59 @@
 .meal img {
   max-width: 100%;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mealList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meal {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.meal img {
+    width: 100%;
+}
+
+.meal h2 {
+    margin-top: 0;
+}
+
+.meal p {
+    margin: 5px 0;
+}
